@@ -1,0 +1,20 @@
+To list all oozie jobs:
+oozie jobs -oozie <Oozie-URL>
+
+Using Oozie Web UI:
+Open a web browser.
+Navigate to the Oozie web-based UI by entering the URL of your Oozie server in the browser’s address bar, e.g., http://localhost:11000/oozie.
+In the Oozie UI, look for an option like “List Coordinator Jobs” or “List Workflow Jobs.” This will vary depending on the version of Oozie you’re using.
+Click on the appropriate option to view a list of all Oozie jobs.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Check the Status of a Job
+About this task
+You can check the status of a job from the command line or the Oozie Web Console.
+From the command line, issue the following (substituting the job ID for the <job id> placeholder):
+
+# /opt/mapr/oozie/oozie-<version>/bin/oozie job -info <job id>
+
+All the commands can be seen here:
+https://stackoverflow.com/questions/12096678/stop-oozie-workflow-execution
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
